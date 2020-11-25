@@ -2,12 +2,14 @@ import java.time.LocalDate;
 
 public class Course {
     String nameIsCourse;
-    LocalDate date;
+    String date;
     String ID;
     String fullNameTeacher;
 
+
     //  Constructor
-    public Course(String nameIsCourse, LocalDate date, String ID, String fullNameTeacher) {
+    public Course() {}
+    public Course(String nameIsCourse, String date, String ID, String fullNameTeacher) {
         this.nameIsCourse = nameIsCourse;
         this.date = date;
         this.ID = ID;
@@ -19,7 +21,7 @@ public class Course {
     public void setNameIsCourse(String nameIsCourse) {
         this.nameIsCourse = nameIsCourse;
     }
-    public void setDate(LocalDate date) {
+    public void setDate(String date) {
         this.date = date;
     }
     public void setID(String ID) {
@@ -34,7 +36,7 @@ public class Course {
     public String getNameIsCourse() {
         return nameIsCourse;
     }
-    public LocalDate getDate() {
+    public String getDate() {
         return date;
     }
     public String getID() {

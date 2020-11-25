@@ -1,44 +1,44 @@
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Group {
-    String[] students;
-    String[] courses;
-    LocalDate dateStarted;
+    Student[] students;
+    Course[] courses;
+    String dateStarted;
     int duration;
 
 
     //  Constructor
-    public Group(String[] students, String[] courses, LocalDate dateStarted, int duration) {
+    public Group() {}
+    public Group(Student[] students, Course[] courses, String dateStarted, int duration) {
         this.students = students;
         this.courses = courses;
         this.dateStarted = dateStarted;
         this.duration = duration;
     }
 
-
     //  Setter
-    public void setStudents(String[] students) {
+    public void setStudents(Student[] students) {
         this.students = students;
     }
-    public void  setCourses(String[] courses) {
+    public void setCourses(Course[] courses) {
         this.courses = courses;
     }
-    public void setDateStarted(LocalDate dateStarted) {
+    public void setDateStarted(String dateStarted) {
         this.dateStarted = dateStarted;
     }
     public void setDuration(int duration) {
         this.duration = duration;
     }
 
-
     //  Getter
-    public String[] getStudents() {
+    public Student[] getStudents() {
         return students;
     }
-    public String[] getCourses() {
+    public Course[] getCourses() {
         return courses;
     }
-    public LocalDate getDateStarted() {
+    public String getDateStarted() {
         return dateStarted;
     }
     public int getDuration() {
