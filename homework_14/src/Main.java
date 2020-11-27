@@ -7,7 +7,7 @@ public class Main {
     //  TASK A
 
     //  Fish
-        Fish fish1 = new Fish("Amfi", "fish", -1);
+        Fish fish1 = new Fish("Amfi", "fish", -1, "ldjghkdfj");
             String fish1Name = fish1.getName();
             String fish1AnimalClass = fish1.getAnimalClass();
             int fish1Age = fish1.getAge();
