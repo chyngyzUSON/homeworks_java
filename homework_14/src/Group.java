@@ -21,9 +21,9 @@ public class Group {
     public void setStudents(Student[] students) {
         this.students = students;
     }
-    public void setCourses(Course[] courses) {
-        this.courses = courses;
-    }
+//    public void setCourses(Course[] courses) {
+//        this.courses = courses;
+//    }
     public void setDateStarted(String dateStarted) {
         this.dateStarted = dateStarted;
     }

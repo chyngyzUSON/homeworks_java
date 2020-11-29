@@ -2,12 +2,17 @@ public class Fish {
     String name;
     int age;
     String animalClass;
+    String str;
 
     //  constructor
+    public Fish() {
+
+    }
     public Fish(String name, String animalClass, int age) {
         this.name = name;
         this.animalClass = animalClass;
         this.age = age;
+        this.str = str;
 
     }
 

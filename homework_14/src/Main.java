@@ -7,7 +7,7 @@ public class Main {
     //  TASK A
 
     //  Fish
-        Fish fish1 = new Fish("Amfi", "fish", -1, "ldjghkdfj");
+        Fish fish1 = new Fish("Amfi", "fish", -1);
             String fish1Name = fish1.getName();
             String fish1AnimalClass = fish1.getAnimalClass();
             int fish1Age = fish1.getAge();
@@ -90,12 +90,12 @@ public class Main {
         students[0] = first;
         students[1] = second;
 
-        Group jv = new Group(students, courses, "2020,09,01", 1);
-        Group fe = new Group(students, courses, "2020,09,01", 1);
+        Group jv = new Group(students, "", "2020,09,01", 1);
+        Group fe = new Group(students, "", "2020,09,01", 1);
 
         Course[] courses = new Course[2];
-        courses[0] = jv;
-        courses[1] = fe;
+        courses[0] = java;
+        courses[1] = frontEnd;
 
         Group group = new Group(students, courses, "2020,09,01", 1);
 
