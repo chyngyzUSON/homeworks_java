@@ -6,6 +6,12 @@ public class Group {
     LocalDate dateStarted;
     int duration;
 
+    @Override
+    public String toString() {
+        String message1 = "Я студент " + studentName + " " + lastStudentName + ", Возраст " + age + "\n";
+        String message2 = "Это курс " + nameIsCourse + "\n";
+        String message3 = "Это группа по курсу " + nameIsCourse + ", в которой обучается " + students + "\n";
+    }
 
     //  Constructor
     public Group(String[] students, String[] courses, LocalDate dateStarted, int duration) {

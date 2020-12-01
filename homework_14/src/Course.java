@@ -14,6 +14,12 @@ public class Course {
         this.fullNameTeacher = fullNameTeacher;
     }
 
+    @Override
+    public String toString() {
+        String message1 = "Я студент " + studentName + " " + lastStudentName + ", Возраст " + age + "\n";
+        String message2 = "Это курс " + nameIsCourse + "\n";
+        String message3 = "Это группа по курсу " + nameIsCourse + ", в которой обучается " + students + "\n";
+    }
 
     //  Setter
     public void setNameIsCourse(String nameIsCourse) {
